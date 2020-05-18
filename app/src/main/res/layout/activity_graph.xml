@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.terna.projectone.Graph"
+    android:fillViewport="true"
+    android:background="#555555"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="#e3e3e3"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/tip"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/rangeLeft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:max="720"
+                android:progress="160"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/leftStat"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.1"
+                android:textColor="#e3e3e3"
+                android:text="@string/left"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/rangeRight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.9"
+                android:progress="560"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#e3e3e3"
+                android:id="@+id/rightStat"
+                android:text="@string/right"
+                android:textSize="7pt"
+                android:layout_weight="0.1"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/res"
+            android:textColor="#e3e3e3"
+            android:textSize="8pt"
+            android:paddingStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/resolution"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="199"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.9"
+                android:progress="0"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#e3e3e3"
+                android:id="@+id/resolutionText"
+                android:text="@string/one"
+                android:textSize="7pt"
+                android:layout_weight="0.1"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/norm"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#e3e3e3"
+            android:textSize="7pt"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/normalize"
+            />
+    </LinearLayout>
+
+</ScrollView>

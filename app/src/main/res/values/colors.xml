@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="historyButton">#ABFF0F</color>
+    <color name="historyButtonPressed">#95E600</color>
+    <color name="advancedButton">#ABFF0F</color>
+    <color name="advancedButtonPressed">#95E600</color>
+    <color name="operatorButton">#9999FF</color>
+    <color name="operatorButtonPressed">#6666FF</color>
+    <color name="cancelButton">#FF9933</color>
+    <color name="cancelButtonPressed">#FF8000</color>
+    <color name="equalsButton">#66CCFF</color>
+    <color name="equalsButtonPressed">#33BBFF</color>
+    <color name="variableButton">#03B6FC</color>
+    <color name="variableButtonPressed">#0394FC</color>
+</resources>

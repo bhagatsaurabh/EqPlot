@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView3D"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.terna.projectone.Graph"
+    android:fillViewport="true"
+    android:background="#555555"
+    >
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+    </WebView>
+
+</ScrollView>
